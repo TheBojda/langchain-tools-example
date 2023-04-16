@@ -1,0 +1,31 @@
+{
+  "name": "langchain-tools-example",
+  "version": "1.0.0",
+  "description": "Simple Vue.js app that uses langchain with tools",
+  "scripts": {
+    "build": "parcel build public/index.html",
+    "start": "parcel public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBojda/langchain-tools-example.git"
+  },
+  "author": "Laszlo Fazekas (thebojda@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBojda/langchain-tools-example/issues"
+  },
+  "homepage": "https://github.com/TheBojda/langchain-tools-example#readme",
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.8.2",
+    "path-browserify": "^1.0.1"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.4.12",
+    "bootstrap": "^5.2.3",
+    "langchain": "^0.0.56",
+    "parcel": "^2.8.2",
+    "vue": "^3.2.47",
+    "vue-facing-decorator": "^2.1.20"
+  }
+}
